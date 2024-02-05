@@ -7,6 +7,7 @@ body {
     align-items: center;
     min-height: 100vh;
     /* Optional: ensures the body covers the full viewport height */
+    background-color: #EBEAF0;
 }
 
 .header {
@@ -43,12 +44,24 @@ td:nth-child(2) {
 
 th:nth-child(3),
 td:nth-child(3) {
+    width: 300px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
     width: 200px;
 }
 
-table img {
+.column-2-image {
     max-width: 100px;
     max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.column-3-image {
+    max-width: 180px;
+    max-height: 180px;
     width: auto;
     height: auto;
 }
